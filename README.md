@@ -46,7 +46,7 @@ git config --global color.ui true
 
 ```bash
 #Na pasta do projeto
-git init #Inicia um repositorio e cria uma pasta .git com as configuraçoes do projeto
+git init #Inicia um repositório e cria uma pasta .git com as configurações do projeto
 ls -a #para ver se a pasta oculta foi criada
 ```
 
@@ -60,25 +60,25 @@ Apagar a pasta **.git** vai ocasionar a perda de todo o histórico.
 git add . #Prepara todos os arquivos da pasta para um ponto na História
 git add nomeDoArquivo #Prepara um arquivo especifico para adicionar
 git commit -m "Commit Inicial" #Cria o ponto na História
-#o -m é para definir um comentario
+#o -m é para definir um comentário
 
 ```
 
 ## 08 - Mostrar Histórico de mudanças
 
 ```bash
-git log #Mostra um Historico dos pontos na História
+git log #Mostra um Histórico dos pontos na História
 git log --oneline #Histórico resumido
-git log -n 5 #Traz os ultimos 5 commits
+git log -n 5 #Traz os últimos 5 commits
 git log --grep="palavra chave" #Busca por palavra chave
 ```
 
 ## 09 - Os 3 estados
 
 ```bash
-git init #Inicia um repositorio - Working Directory
+git init #Inicia um repositório - Working Directory
 git add . #Prepara todos os arquivos - Stage Area
-git commit -m "Commit Inicial" #Cria o ponto na História Local Reposito/h2
+git commit -m "Commit Inicial" #Cria o ponto na História Local
 ```
 
 ## 10 - Ignorando arquivos e Diretórios
@@ -93,7 +93,7 @@ git add .gitignore
 ## 11 - Situação atual
 
 ```bash
-git status # Este comando mostra o estus atual 
+git status # Este comando mostra o status atual 
 ```
 
 ## 12 - Remover arquivos adicionados
@@ -105,7 +105,7 @@ git rm --cached nomeDoArquivo #Remove arquivos da Stage area
 ## 13 - Adicionar por extensão
 
 ```bash
-git add *.jsx # adicionar todos os arquivos com a extenção .js .php .html .ts etc..
+git add *.jsx # adicionar todos os arquivos com a extensão .js .php .html .ts etc..
 ```
 
 ## 14 - Ver as alterações dos nos arquivos
@@ -137,17 +137,16 @@ git restore arquivo.txt #restaura arquivo do Working Directory
 ```bash
 git restore --staged arquivo.txt #Remove arquivo do staged. 
 git restore --staged . #Remove tudo do staged
-#Bom pra quando é adicionado arquivos que não devem ser commitados 
 ```
 
 ## 19 - Corrigindo o Commit anterior
 
 ```bash
-git commit --amend -m "Mensagem" #Corige o ultimo commit 
+git commit --amend -m "Mensagem" #Corrige o ultimo commit 
 #OBS: Mais correto criar novo ponto na história
 #então usar so quando adiciona um arquivo 
 #Que não pode ficar na historia. 
-#Como arquivo com dados sensiveis ou inuteis fora do escopo do projeto
+#Como arquivo com dados sensíveis ou inúteis fora do escopo do projeto
 ```
 
 ## 20 - Restaurando arquivo
