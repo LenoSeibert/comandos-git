@@ -1,9 +1,8 @@
-# comandos-git
 <h1>Manual do Git</h1>
 <h2>00 - Configurações Iniciais</h2>
 <pre>
       <code>
-      sudo apt install git #instala o git no linux/debian e distros baseadas
+<strong color="red">sudo apt install git<strong> #instala o git no linux/debian e distros baseadas
       git config --global user.name &quot;Seu Nome&quot; #Define identidade-Nome de usuário do GITHUB
       git config --global user.email &quot;Seu Email&quot; #Define identidade - Email do GITHUB
       #Isso marca o histórico com seu ID
@@ -154,7 +153,7 @@ git restore --staged . #Remove tudo do staged
 <h2>21 - Restaurando tudo</h2>
 <pre>
   <code>
-    git revert HEAD~5 #O 5 são o numero de commits anteriores
+git revert HEAD~5 #O 5 são o numero de commits anteriores
 #isso cria um nomo commit
 git revert hash #mesmo resultado do anterior.
 </code>
