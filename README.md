@@ -1,3 +1,17 @@
+# Manual do Git
+
+## 00 - Configurações Iniciais
+
+```bash
+
+sudo apt install git #instala o git no linux/debian e distros baseadas
+git config --global user.name "Seu Nome" #Define identidade-Nome de usuário do GITHUB
+git config --global user.email "Seu Email" #Define identidade - Email do GITHUB
+#Isso marca o histórico com seu ID
+```
+
+
+
 <h1>Manual do Git</h1>
 <h2>00 - Configurações Iniciais</h2>
 <pre>
