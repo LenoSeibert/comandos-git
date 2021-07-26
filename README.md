@@ -158,6 +158,7 @@ git checkout hash -- nomeDoArquivo #O hash marca de qual commit vai restaurar o 
 ## 21 - Restaurando tudo
 
 ```bash
+git log --oneline #Para ver o histórico de alterções
 git revert HEAD~5 #O 5 são o numero de commits anteriores
 #isso cria um nomo commit
 git revert hash #mesmo resultado do anterior.
